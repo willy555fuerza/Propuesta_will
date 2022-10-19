@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  main 
+  {
+    position: relative;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  p 
+  {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    color: white; 
+  }
+  
+p:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.options 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 1em;
+}
+  
+button 
+{
+    height: 2em;
+    width: 2em;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background-color: red;
+    color: white;
+}
+
+button .noBtn:hover
+{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
